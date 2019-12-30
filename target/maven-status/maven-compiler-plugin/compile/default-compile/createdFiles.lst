@@ -1,1 +1,5 @@
+com\commons\CursDTO.class
+com\commons\UserCursDTO.class
 com\commons\LoginDTO.class
+com\commons\UserDTO.class
+com\commons\UserTypeDTO.class
