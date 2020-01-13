@@ -1,21 +1,21 @@
 package com.commons;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserCursDTO {
 	private String username;
-	private Set<String> courses = new HashSet<String>();
+	private List<String> courses = new ArrayList<String>();
 	public String getUsername() {
 		return username;
 	}
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	public Set<String> getCourses() {
+	public List<String> getCourses() {
 		return courses;
 	}
-	public void setCourses(Set<String> courses) {
+	public void setCourses(List<String> courses) {
 		this.courses = courses;
 	}
 	@Override
